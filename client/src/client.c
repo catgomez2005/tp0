@@ -167,7 +167,7 @@ void paquete(int conexion)
 	
 	free(leido);
 
-	eliminar(paquete);
+	eliminar_paquete(paquete);
 }
 
 void terminar_programa(int conexion, t_log* logger, t_config* config)
